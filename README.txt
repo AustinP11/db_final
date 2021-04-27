@@ -15,3 +15,5 @@ for whether or not they are currently active, and a foreign key to the team they
 User-Team: Each user can have many different favorite teams, and the teams field has a foreign key that realtes to the id of the user class for which that 
 team is their favorite
 Team-Player: Each team can have many different players, both that are active or inactive, and the player field has a foreign key to the id of the team that they are on
+Code: For the code I created a list of all of the different either users, teams, or players, along with the ability to update, delete, or create new ones of those using the 
+interface provided. 
