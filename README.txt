@@ -2,7 +2,7 @@ Database Final Project
 Group 13
 Austin Parente 
 
- https://lucid.app/lucidchart/c9046b80-dcb6-442d-9ce8-3cdd16758f75/edit?page=HWEp-vi-RSFO#
+UML Diagram: https://lucid.app/lucidchart/invitations/accept/inv_72474062-898d-4712-b423-1a19394f4cdc?viewport_loc=130%2C-21%2C2328%2C1073%2CHWEp-vi-RSFO
 
 Description: For this project I decided to go with a sports route. So, in this case a user can have a favorite team, and then those teams can have players on them. 
 User: The user has a first and last name, as well as a username and apssword, so that they could access their account if it existed. They then have an email and a date of bith 
