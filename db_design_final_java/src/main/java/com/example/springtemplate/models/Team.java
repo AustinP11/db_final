@@ -16,7 +16,7 @@ public class Team {
     private Double record;
     private String sport;
     private Date lastGame;
-    @Column(name = "user_id", updatable = false, insertable = false)
+    @Column(name = "user_id")
     private Integer userId;
 
 

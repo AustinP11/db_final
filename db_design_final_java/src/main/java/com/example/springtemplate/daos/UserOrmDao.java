@@ -40,7 +40,7 @@ public class UserOrmDao {
         user.setUsername(userUpdates.getUsername());
         user.setPassword(userUpdates.getPassword());
         user.setEmail(userUpdates.getEmail());
-        user.setBirth(userUpdates.getBirth());
+        user.setDateOfBirth(userUpdates.getDateOfBirth());
         return userRepository.save(user);
     }
     
@@ -50,10 +50,4 @@ public class UserOrmDao {
         userRepository.deleteById(id);
     }
 
-//    @GetMapping("/api/users/{uid}/teams")
-//    public List<Team> findTeamsForUser(
-//        @PathVariable("uid") Integer userId) {
-//        User user = userRepository.findById(userId).get();
-//        return user.getTeams();
-//    }
 }

@@ -15,7 +15,7 @@ public class Player {
     private String lastname;
     private Integer points;
     private Boolean active;
-    @Column(name = "team_id", updatable = false, insertable = false)
+    @Column(name = "team_id")
     private Integer teamId;
 
     public Integer getId() {

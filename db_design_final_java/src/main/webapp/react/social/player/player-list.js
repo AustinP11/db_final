@@ -26,6 +26,10 @@ const PlayerList = () => {
                     {player.lastname},
                     {player.firstname}
                     </Link>
+                    | Team-
+                    <Link to={`/team/${player.teamId}`}>
+                      {player.teamId}
+                    </Link>
                   </li>)
             }
           </ul>

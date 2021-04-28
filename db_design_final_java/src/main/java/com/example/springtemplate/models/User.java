@@ -18,16 +18,6 @@ public class User {
     private String email;
     private Date dateOfBirth;
 
-//    @OneToMany(mappedBy = "user")
-//    @JsonIgnore
-//    private List<Team> team;
-//
-//    public List<Team> getTeams() {
-//        return team;
-//    }
-//
-//    public void setTeams(List<Team> team) { this.team = team; }
-
     public Integer getId() { return id; }
     public void setId(Integer id) { this.id = id; }
     public String getFirstName() { return firstName; }
@@ -40,17 +30,7 @@ public class User {
     public void setPassword(String password) { this.password = password; }
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
-    public Date getBirth() { return dateOfBirth; }
-    public void setBirth(Date dateOfBirth) { this.dateOfBirth = dateOfBirth; }
+    public Date getDateOfBirth() { return dateOfBirth; }
+    public void setDateOfBirth(Date dateOfBirth) { this.dateOfBirth = dateOfBirth; }
 
-//    public User(String username, String password, String first_name, String last_name, String email, String birth) {
-//        this.username = username;
-//        this.password = password;
-//        this.firstName = first_name;
-//        this.lastName = last_name;
-//        this.email = email;
-//        this.dateOfBirth = birth;
-//    }
-//
-//    public User() {}
 }

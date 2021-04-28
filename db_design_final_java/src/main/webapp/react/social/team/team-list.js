@@ -28,6 +28,10 @@ const TeamList = () => {
                     {team.record},
                       {team.lastGame}
                     </Link>
+                      |   User-
+                    <Link to={`/users/${team.userId}`}>
+                      {team.userId}
+                    </Link>
                   </li>)
             }
           </ul>
